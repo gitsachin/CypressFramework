@@ -1,0 +1,24 @@
+{
+  "name": "cypress-e2e-tests",
+  "author": "Stratawise cypress",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "Stratawise cypress e2e test runner ",
+  "scripts": {
+    "pretest": "npm install",
+    "test": "cypress run --reporter mochawesome"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "cypress": "^2.1.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.1",
+    "mochawesome-merge": "^1.0.5",
+    "mochawesome-report-generator": "^3.1.5"
+  },
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
