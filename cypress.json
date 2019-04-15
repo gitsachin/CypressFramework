@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://cypressdev.stratawise.com",
+  "reporter": "mochawesome",
+ "reporterOptions": {
+   "mochaFile": "results/my-test-output.xml",
+   "reportDir": "./output",
+   "toConsole": true
+ },
+  "defaultCommandTimeout": 50000,
+  "execTimeout": 50000,
+  "requestTimeout": 90000,
+  "pageLoadTimeout": 90000,
+  "responseTimeout": 90000
+}
