@@ -3,7 +3,7 @@
   "author": "Stratawise cypress",
   "license": "ISC",
   "version": "1.0.0",
-  "description": "Stratawise cypress e2e test runner ",
+  "description": "Cypress e2e test runner ",
   "scripts": {
     "pretest": "npm install",
     "test": "cypress run --reporter mochawesome"
