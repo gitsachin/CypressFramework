@@ -2,9 +2,9 @@
 var faker = require('faker');
 const RegisterPageData = {
   registrationPageURL_Text: '/Account/UserRegistration',
-  registrationForm_Email: 'qatest123@mailinator.com',
+  registrationForm_Email: '',
   registrationForm_EmailGenerator: faker.name.firstName()+Math.floor(Math.random()*999) +1+'@mailinator.com',
-  registrationForm_Password: 'testing123',
+  registrationForm_Password: '',
   mailinatorURL: 'https://www.mailinator.com',
   mailinatorPageTitle: 'Mailinator',
   confirm_EmailStatus: 'moments ago',
