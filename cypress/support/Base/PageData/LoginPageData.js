@@ -1,9 +1,9 @@
 // setup user data that will be used in the tests
 
 const LoginPageData = {
-  email: 'qasachin@outlook.com',
+  email: '',
   invalid_email: `fake${new Date().getTime()}@email.`,
-  password: 'testing123',
+  password: '',
   new_button_text: 'New Request',
   blank_email_error: 'The Email field is required.',
   invalid_email_error: 'The Email field is not a valid e-mail address.',
