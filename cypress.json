@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://cypressdev.stratawise.com",
+  "baseUrl": "https://",
   "reporter": "mochawesome",
  "reporterOptions": {
    "mochaFile": "results/my-test-output.xml",
